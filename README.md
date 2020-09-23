@@ -19,4 +19,4 @@ Below are already done (the code) but need (a lot of) polishing. Especially inte
 1. Recurrent Neural Networks: using RNN in Tensorflow to detect spam messages  
 1. Autoencoder.
 
-<img src="figures/gradient-descent.png" />
+<img src="figures/gradient-descent.png" width=200 />
