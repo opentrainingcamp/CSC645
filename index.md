@@ -1,10 +1,21 @@
 # Welcome to GCSC645
 
+## TODO ... 
+- [x] Start the forked project
+- [ ] validate the idea
+- [ ] Complete the intro
+- [ ] Develop fundamentals of text mining as part of data mining
+- [ ] Develop the lab (how-to spark+python, and the example)
+
 ## Two parts Neural Network for Machine Learning and Text mining as part of Data mining
 
 ### Part 1 : Neural Network for Machine Learning. 
 
 It is meant to be a hands-on course without sacrificing the conceptual background. As such the first few code examples are developed (using numpy or cupy) from basic principles without using any ML framework. After that we use Tensorflow v2 for almost all examples.
+
+[see for more details](https://github.com/hikmatfarhat-ndu/CSC645)
+
+TODO: complete this intro
 
 ### Part 2: Data mining 
 can be defined as the “non-trivial process of extracting implicit, previously unknown and potentially useful information (in the form of rules, constraints, regularities) from data from databases” (Gregory Piatetsky- Shapiro). While this field is far from new, it is only in recent years that practitioners have faced new challenges related to a significant increase in the volume of data. This increase has in some cases been much faster than the continued growth in the compute and storage capacities of individual servers, with the resulting volumes incompatible with centralized processing. This is generally referred to as “big data”.
