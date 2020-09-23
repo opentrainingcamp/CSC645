@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Welcome to GCSC645
 
-You can use the [editor on GitHub](https://github.com/opentrainingcamp/CSC645/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Two parts Neural Network for Machine Learning and Text mining as part of Data mining
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Part 1 : Neural Network for Machine Learning. 
 
-### Markdown
+It is meant to be a hands-on course without sacrificing the conceptual background. As such the first few code examples are developed (using numpy or cupy) from basic principles without using any ML framework. After that we use Tensorflow v2 for almost all examples.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Part 2: Data mining 
+can be defined as the “non-trivial process of extracting implicit, previously unknown and potentially useful information (in the form of rules, constraints, regularities) from data from databases” (Gregory Piatetsky- Shapiro). While this field is far from new, it is only in recent years that practitioners have faced new challenges related to a significant increase in the volume of data. This increase has in some cases been much faster than the continued growth in the compute and storage capacities of individual servers, with the resulting volumes incompatible with centralized processing. This is generally referred to as “big data”.
 
-```markdown
-Syntax highlighted code block
+But volume isn't the only (relatively) new challenge for data mining. In a 2001 report the META Group (now Gartner) spoke of 3V: volume, variety, velocity. Indeed, big data is no longer simply relational but often comes in a great diversity (variety) of semi-structured (XML, JSON) or unstructured (e.g. text, images, video) formats, which require to the point of suitable excavation (or at least pre-treatment) methods. You can watch the latest surveys on the KDnuggets site (surveys to be taken with care because there is nothing to assess their representativeness). Velocity corresponds to the fact that in many cases new data arrives as a stream and must be processed in real time (or within timelines consistent with the streams), which places new demands on the latency of mining operations. Finally, various players in this field are happy to add other Vs: veracity, value, visibility, etc. We must also mention another characteristic that should not be overlooked, the "low information density", which severely limits the usefulness of work carried out on a small sample size or on a reduced number of variables.
 
-# Header 1
-## Header 2
-### Header 3
+**We will be interested in this part by (as a simple exemple of text mining):**
 
-- Bulleted
-- List
+Learning how to examine, with Spark, the content of a fairly large text base, using Latent Semantic Analysis (LSA). The primary goal is to explore the data by determining which "concepts" (or semantic classes) best explain the data. We will also extract representative documents and make queries that find documents in the database that mention certain terms or that are similar to a query document.
 
-1. Numbered
-2. List
+LSA aims to better represent a corpus of documents by exploring the relationships between words in documents. The aim is to “distil” from the corpus a set of relevant “concepts”. Each concept captures a direction of variation in the data, which often corresponds to a subject addressed in the corpus. Broadly speaking, each concept is described by three characteristics: the relevance of the concept for each document in the corpus, the affinity with the terms present in the corpus and the usefulness of the concept in describing the variance of the data. By selecting only the most important concepts, LSA can describe the data with a rough representation that employs fewer concepts, eliminates "noise", and merges similar topics.
 
-**Bold** and _Italic_ and `Code` text
+We will briefly present the fundamentals behind text mining then make a lab about the specific example using spark with Python 
 
-[Link](url) and ![Image](src)
-```
+* [Fundamentals](Fundamentals)
+* [Lab spark python](Labs)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/opentrainingcamp/CSC645/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
