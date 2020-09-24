@@ -2,8 +2,8 @@
 |  ---- |  ----------|   ------|
 | Day 1 | Pascal | Title 1 |
 | Day 2 | Pascal | Title 2  |
-| Day 3 | Hikmat | Logic Regression, Shallow Network|
-| Day 4 | Hikmat | Feedforward Networks, Tensorflow |
+| Day 3 | Hikmat | Logistic Regression, Shallow Network|
+| Day 4 | Hikmat | Feedforward Networks, Tensorflow|
 | Day 5 | Hikmat | Convolution Networks|
 | Day 6 | Hikmat | Recurrent Networks, Autoencoders|
 | Day 7 | Walid | Title 1 |
