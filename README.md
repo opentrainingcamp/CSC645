@@ -1,9 +1,13 @@
-# Neural Networks
+**gh-pages branch for webpages of this project**
+
+# Neural Network and Text Mining
+
+## Neural Networks
 
 This course introduces Neural Network for Machine Learning. It is meant to be a hands-on
 course without sacrificing the conceptual background. As such the first few code examples are developed (using numpy or cupy) from basic principles without using any ML framework. After that we use Tensorflow v2 for almost all examples.
 
-## Already done
+### Already done
 
 Below are already done (the code) but need (a lot of) polishing. Especially integrating the lecture with the code.
 1. Introduction
@@ -14,7 +18,11 @@ Below are already done (the code) but need (a lot of) polishing. Especially inte
 1. Same as the above but using the high level Keras API in tensorflow
 1. Convolution Networks using Keras. Application to CIFAR10 data set
 
-## coming soon
+### coming soon
 
 1. Recurrent Neural Networks: using RNN in Tensorflow to detect spam messages  
 1. Autoencoder.
+
+## Text mining
+
+Visit this directory [BigData](BigData)
