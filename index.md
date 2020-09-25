@@ -11,7 +11,7 @@
 
 ## Proposed methodology (Pedagogie)
 
-Some sessions could be asynchronous and be freely accessible by registered students (or even public with a creative common licence). This king of sessions will contain small parts: (small videos 1015mn, the assessment for each part, Tools to communicate with the instructor: forum or chat). Each asynchronous session ends with an asynchronous online class for debriefing and some complements based on the results of assessments and learner questions)
+Some sessions could be asynchronous and be freely accessible by registered students (or even public with a creative common licence). This kind of sessions will contain small parts: (small videos 10-15mn, the assessment for each part, Tools to communicate with the instructor: forum or chat). Each asynchronous session ends with an synchronous online class for debriefing and some complements based on the results of assessments and learner questions)
 
 _**Platforms:**  google classroom, google drive, github, Windows 10 or Linux, Spark, Python, PySpark and Jupyter Notebook._
 
