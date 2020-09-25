@@ -16,11 +16,11 @@ Some sessions could be asynchronous and be freely accessible by registered stude
 _**Platforms:**  google classroom, google drive, github, Windows 10 or Linux, Spark, Python, PySpark and Jupyter Notebook._
 
 
-## Proposed palnning
+## Proposed planning
 
 | Date | Instructor | Title |
 |  ---- |  ----------|   ------|
-| Session 1 | Pascal | BigData, Machine Learning and text mining by exemple. Using PySpark (Spark+Python). <ul><li>Why Spark for BigData and ML,</li><li>Basic knowledge for Text Mining:<ul><li>LSA</li><li>DSA</li>TF-IDF<li>Word2Vec</li></ul></li><li>installing pyspark on Windows or Linux and first basic exemples</li></ul>|
+| Session 1 | Pascal | BigData, Machine Learning and text mining by exemple. Using PySpark (Spark+Python).  Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic exemples |
 | Session 2 | Pascal | Implementing 1 or 2 relalistics Text Mining exemples  |
 | Session 3 | Hikmat | Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews)|
 | Session 4 | Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
