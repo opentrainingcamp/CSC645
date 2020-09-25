@@ -1,7 +1,7 @@
 | Date | Instructor | Title |
 |  ---- |  ----------|   ------|
-| Day 1 | Pascal | Title 1 |
-| Day 2 | Pascal | Title 2  |
+| Day 1 | Pascal | BigData, Machine Learning and text mining by exemple. Using PySpark (Spark+Python). <ul><li>Why Spark for BigData and ML,</li><li>Basic knowledge for Text Mining:<ul><li>LSA</li><li>DSA</li>TF-IDF<li>Word2Vec</li></ul></li><li>installing pyspark on Windows or Linux and first basic exemples</li></ul>|
+| Day 2 | Pascal | Implementing 1 or 2 relalistics Text Mining exemples  |
 | Day 3 | Hikmat | Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews)|
 | Day 4 | Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
 | Day 5 | Hikmat | Convolution Networks (MNIST digits), ??|
