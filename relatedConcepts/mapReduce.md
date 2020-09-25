@@ -110,8 +110,49 @@ In a configuration with several assembly workshops, each is specialized to deal 
 
 It's over! This time we have a complete metaphor for a MapReduce process in a cloud/Big Data context. Let's learn one last lesson before rephrasing it in abstract/computer terms.
 
-Lesson 7: distribution to assembly workshops
-
-If we have several assembly workshops, we need to set up a distribution operation that sends each type of fruit to the specialized workshop. This operation must ensure that each type of fruit has its workshop.
+>Lesson 7: distribution to assembly workshops
+>>If we have several assembly workshops, we need to set up a distribution operation that sends each type of fruit to the specialized workshop. This operation must ensure that each type of fruit has its workshop.
 
 Many variants can be considered that do not call into question the overall model of execution and treatment. A reflection on these variants is proposed in practice.
+
+# The MapReduce model
+Let characterize the MapReduce model in computer terms.
+
+_For now, we are only focusing on understanding what a MapReduce treatment means, not how this treatment is performed. We know from the above that it is possible to parallelize it, but it is also quite permissible to run it on a single machine in two steps. This is the scenario we are adopting for now._
+
+The principle of MapReduce is ancient and comes from functional programming. It sums up this way: given a collection of items, each item is applied to an individual transformation process (the so-called **"map"** phase) that produces `labeled` intermediate values. These intermediate values are `grouped by label` and subjected to an assembly function (we will speak more readily of aggregation in computer science) applied to each group (so-called **"Reduce"** phase). The Map phase corresponds to our transformation workshop, the Reduce phase at our assembly workshop.
+
+## Model in detail.
+
+>Item in-entry (document)
+>> An entry item is any value capable of being subjected to the transformation function.
+
+In our culinary example, the starters are "raw" fruits: apples, oranges, pineapples, etc. The transformation applied to items is represented by a Map function.
+
+>Map function
+>>The Map function, `Fmap`, is applied to each item in the collection, and produces zero, one or more so-called "intermediate" values, placed in an accumulator.
+
+_In our example, `Fmap` is peeling. For the same fruit, several values (neighbourhoods) are produced, none if the fruit is rotten. The accumulator is the pile to the right of the cook._
+
+It is often necessary to partition the values produced by the map into several groups. All you have to do is change the `Fmap` function so that it doesn't emit a value anymore, but associates each value with the group to which it belongs. `Fmap` produces a pair (k, v) for each item, where k is the group identifier and v the value to be placed in the group. The group identifier is determined from the item being processed (this is what we informally called **"label"**)
+
+In the MapReduce model, the data produced by the Map phase is called an intermediate pair.
+
+>Intermediate pair
+>>An intermediate pair is produced by the Map function; it is of the form (k, v) where k is the identifier (or key) of a group and v the value extracted from the entry item by `Fmap`.
+
+_For our culinary example, there are three groups, and therefore three possible identifiers: apple, orange, pineapple._
+
+At the end of the Map phase, we have a set of intermediate pairs. Each pair is characterized by the identifier of a group, groups can be grouped on the value of the identifier. We get intermediate groups.
+
+>Intermediate group term
+>>An intermediate group is the set of intermediate values associated with the same key value.
+
+_So we'll have the apple quarters group, the orange quarters group, and the pineapple slice group. We then enter the second phase, called Reduce._ The transformation applied to each group is defined by the Reduce function.
+
+>Reduce function
+>>The Reduce function, noted `Fred`, is applied to each intermediate group and produces a final value. The final set of values (one for each group) is the result of the MapReduce treatment.
+
+Let's sum up with the next figure, and now we're in the context of our documentary bases. We have a collection of documents d1,d2,,dn (I will note d(i)). The Fmap function produces intermediate pairs in the form of d(g,i) documents, whose identifier (g) refers to the group of belonging. Note: an entry document can generate several documents coming out of the map. Fmap places each d(g,i) in a Gg group. When the map phase is over (and not before!), we can move on to the reduce phase that successively applies Fred to the documents of each group. For each group, a value (a document in general) is obtained Vj.
+
+![MapReduce](img/mapreduce.png)
