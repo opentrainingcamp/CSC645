@@ -1,3 +1,5 @@
+# Tentative Schedule
+
 | Date         | Instructor | Title |
 |  ---- |  ----------|   ------|
 | Day 1 (November 16)/5-5:30 | Pascal | BigData, Machine Learning and text mining by example. Using PySpark (Spark+Python). Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic examples|
@@ -6,7 +8,7 @@
 | Day 4 (November 21)/5-8| Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
 | Day 5 (November 24)/5-8 | Hikmat | Convolution Networks (MNIST digits), Recurrent Networks|
 | Day 6 (November 26)/5-8 | Hikmat |Autoencoders (denoising), Variational Encoders(data generation), Generative Adversarial Networks|
-| Day 7 (November 30)/5-8 | Walid | Title 1 |
+| Day 7 (November 30)/5-8 | Walid |Machine learning application:Face Mask Detection |
 | Day 8 (December 2)/5-8| Walid | Title 2 |
 
 
