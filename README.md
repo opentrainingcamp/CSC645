@@ -1,4 +1,4 @@
-| Date | Instructor | Title |
+| Date         | Instructor | Title |
 |  ---- |  ----------|   ------|
 | Day 1 (November 16)/5-5:30 | Pascal | BigData, Machine Learning and text mining by example. Using PySpark (Spark+Python). Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic examples|
 | Day 2 (November 17)/5-8| Pascal| Implementing 1 or 2 relalistics Text Mining examples  |
