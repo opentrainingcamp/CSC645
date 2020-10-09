@@ -6,8 +6,8 @@
 | Day 4 (November 21)/5-8| Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
 | Day 5 (November 24)/5-8 | Hikmat | Convolution Networks (MNIST digits), Recurrent Networks|
 | Day 6 (November 26)/5-8 | Hikmat |Autoencoders (denoising), Variational Encoders(data generation), Generative Adversarial Networks|
-| Day 7 | Walid | Title 1 |
-| Day 8 | Walid | Title 2 |
+| Day 7 (November 30)/5-8 | Walid | Title 1 |
+| Day 8 (December 2)/5-8| Walid | Title 2 |
 
 
 
