@@ -2,10 +2,10 @@
 |  ---- |  ----------|   ------|
 | Day 1 | Pascal | Title 1 |
 | Day 2 | Pascal | Title 2  |
-| Day 3 | Hikmat | Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews)|
+| Day 3 | Hikmat | Introduction, Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews), Backpropagation|
 | Day 4 | Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
-| Day 5 | Hikmat | Convolution Networks (MNIST digits), ??|
-| Day 6 | Hikmat | Recurrent Networks, Autoencoders|
+| Day 5 | Hikmat | Convolution Networks (MNIST digits), Recurrent Networks|
+| Day 6 | Hikmat |Autoencoders (denoising), Variational Encoders(data generation), Generative Adversarial Networks|
 | Day 7 | Walid | Title 1 |
 | Day 8 | Walid | Title 2 |
 
