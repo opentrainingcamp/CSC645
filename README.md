@@ -1,10 +1,10 @@
 | Date | Instructor | Title |
 |  ---- |  ----------|   ------|
-| Day 1 | Pascal | BigData, Machine Learning and text mining by exemple. Using PySpark (Spark+Python). Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic exemples|
-| Day 2 | Pascal | Implementing 1 or 2 relalistics Text Mining examples  |
-| Day 3 (November 15) | Hikmat | Introduction, Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews), Backpropagation|
-| Day 4 | Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
-| Day 5 | Hikmat | Convolution Networks (MNIST digits), Recurrent Networks|
+| Day (November 16) | Pascal | BigData, Machine Learning and text mining by example. Using PySpark (Spark+Python). Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic examples|
+| Day 2 (November 17)| Pascal| Implementing 1 or 2 relalistics Text Mining examples  |
+| Day 3 (November 19)/5-8 | Hikmat | Introduction, Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews), Backpropagation|
+| Day 4 (November 21)/5-8| Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
+| Day 5 (November 24)/5-8 | Hikmat | Convolution Networks (MNIST digits), Recurrent Networks|
 | Day 6 | Hikmat |Autoencoders (denoising), Variational Encoders(data generation), Generative Adversarial Networks|
 | Day 7 | Walid | Title 1 |
 | Day 8 | Walid | Title 2 |
