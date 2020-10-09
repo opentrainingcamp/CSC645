@@ -10,9 +10,9 @@
 3. installing pyspark on Windows or Linux and first basic exemples
 4. More realistic use case
 
-1,2,3 Will be available online (asynchroniously) followd by an online gathering for caching and complementary needs.
+1,2,3 Will be available online (asynchronously) followed by an online gathering for caching and complementary needs.
 
-4. Synchronious online session for lab
+4. Synchronous online session for lab
 
 ## Data Mining
 **Data mining** can be defined as the “non-trivial process of extracting implicit, previously unknown and potentially useful information (in the form of rules, constraints, regularities) from data from databases” (Gregory Piatetsky- Shapiro). While this field is far from new, it is only in recent years that practitioners have faced new challenges related to a significant increase in the volume of data. This increase has in some cases been much faster than the continued growth in the compute and storage capacities of individual servers, with the resulting volumes incompatible with centralized processing. This is generally referred to as “big data”.
@@ -31,5 +31,6 @@ Even though textual data analysis methods are not yet able to bridge this semant
 
 We will briefly present the fundamentals behind text mining then make a lab about the specific example installing and using standalone spark on Linux and/or Windows 10 with Python 
 
-* [Fundamentals](Fundamentals)
+* [From Functions to BigData MapReduce paradigme](/relatedConcepts/mapReduce.md)
+* [Fundamentals for Text Mining](Fundamentals)
 * [Lab spark python](Labs)
