@@ -10,8 +10,8 @@
 | Day 6 (November 26)/5-8 | Hikmat |Autoencoders (denoising), Variational Encoders(data generation), Generative Adversarial Networks|
 | Day 7 (November 30)/5-8 | Walid |Machine learning application:Face Mask Detection |
 | Day 8 (December 1)/5-8 | M. Hülsman |Introduction to NLP|
-
 | Day 9 (December 2)/5-8| Walid | Title 2 |
+| Day 10 (December 3)/5-8| Herpers | CNN applications|
 
 
 
