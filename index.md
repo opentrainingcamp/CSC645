@@ -1,3 +1,10 @@
+# TODO find a title : ... Big Data and deep learning by examples ...
+
+## [proposed Schedule](README)
+
+[see for more details](https://github.com/hikmatfarhat-ndu/CSC645)
+
+
 ## Two parts Neural Network for Machine Learning and Text mining as part of Data mining
 
 ### Part 1 : [Neural Network for Machine Learning](README). 
@@ -19,9 +26,12 @@ TODO: complete this intro
 
 **This part, after a first general presentation on the techniques and theories about text mining, presents simple examples and a more realistic use case:** 
 
-Learning how to examine, with Spark and python (pySpark), the content of a fairly large text base, using Latent Semantic Analysis (LSA). The primary goal is to **explore** the data by determining which "concepts" (or semantic classes) best explain the data. We will also **extract representative documents** and **make queries** that find documents in the database that mention certain terms or that are **similar to** a query document.
+Learning how to examine, with Spark and python (pySpark), the content of a fairly large text base, using Latent Semantic Analysis (LSA). The primary goal is to **explore** the data by determining which "concepts" (or semantic classes) best explain the data. We will also **extract representative documents** and **make queries** that find documents in the database that mention certain terms or that are **similar to** a query document. 
 
 LSA aims to better represent a corpus of documents by exploring the relationships between words in documents. The aim is to “distil” from the corpus a set of relevant “concepts”. Each concept captures a direction of variation in the data, which often corresponds to a subject addressed in the corpus. Broadly speaking, each concept is described by three characteristics: the relevance of the concept for each document in the corpus, the affinity with the terms present in the corpus and the usefulness of the concept in describing the variance of the data. By selecting only the most important concepts, LSA can describe the data with a rough representation that employs fewer concepts, eliminates "noise", and merges similar topics.
+
+[see for more details]()
+
 ---
 
 ## TODO ... 
@@ -40,18 +50,6 @@ Some sessions could be asynchronous and be freely accessible by registered stude
 _**Platforms:**  google classroom, google drive, github, Windows 10 or Linux, Spark, Python, PySpark and Jupyter Notebook._
 
 
-## Proposed planning
-
-| Date | Instructor | Title |
-|  ---- |  ----------|   ------|
-| Session 1 | Pascal | BigData, Machine Learning and text mining by exemple. Using PySpark (Spark+Python).  Why Spark for BigData and ML: Basic knowledge for Text Mining:LSA,DSA,TF-IDF,Word2Vec. installing pyspark on Windows or Linux and first basic exemples |
-| Session 2 | Pascal | Implementing 1 or 2 relalistics Text Mining exemples  |
-| Session 3 | Hikmat | Logistic Regression (Identifying Shipts), Shallow Network (Movie Reviews)|
-| Session 4 | Hikmat | Feedforward Networks (MNIST digits), Tensorflow and Keras|
-| Session 5 | Hikmat | Convolution Networks (MNIST digits), ??|
-| Session 6 | Hikmat | Recurrent Networks, Autoencoders|
-| Session 7 | Walid | Title 1 |
-| Session 8 | Walid | Title 2 |
 
 
 
