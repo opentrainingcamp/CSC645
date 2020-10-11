@@ -1,6 +1,7 @@
-# BigData, Machine Learning and text mining by exemple Using PySpark (Spark+Python).
+# BigData, Machine Learning and text mining by example Using PySpark (Spark+Python).
 
-1. DataMining and Text mining
+1. General introduction
+2. DataMining and Text mining
 1. Why Spark for BigData, ML and text mining
 2. Basic knowledge for Text Mining:
     * LSA,
@@ -31,6 +32,7 @@ Even though textual data analysis methods are not yet able to bridge this semant
 
 We will briefly present the fundamentals behind text mining then make a lab about the specific example installing and using standalone spark on Linux and/or Windows 10 with Python 
 
-* [From Functions to BigData MapReduce paradigme](/relatedConcepts/mapReduce.md)
+* [Why Spark, basic concept](/Spark/)
+* [From Functions to BigData MapReduce paradigm](/relatedConcepts/mapReduce.md)
 * [Fundamentals for Text Mining](Fundamentals)
 * [Lab spark python](Labs)

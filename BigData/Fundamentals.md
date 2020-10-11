@@ -1,5 +1,6 @@
 *Issued from "Le Cnam" course "[RCP216 : Ingénierie de la fouille et de la visualisation de données massives](http://cedric.cnam.fr/vertigo/Cours/RCP216)" By Michel Crucianu, Pierre Cubaud, Raphaël Fournier-S'niehotta, Marin Ferecatu, Nicolas Audebert and adapted for Cnam Liban by Pascal Fares*
 
+
 # Text mining
 
 The textual data contains potentially very useful information for the excavation. These data are present in very diverse forms, ranging from elaborate texts, with good grammatical conformity, to simple "word tags" (tags, often parts of words or words from a group lexicon), including incomplete sentences in SMS language, presenting a particular lexicon, numerous spelling errors and a very simplified syntax. This data is intended to be read and understood by humans, sometimes belonging to restricted groups.

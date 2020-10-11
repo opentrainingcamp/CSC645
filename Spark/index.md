@@ -1,34 +1,54 @@
-# How To Install Spark
-Installing Spark and getting to work with it can be a daunting task. This section will go deeper into how you can install it and what your options are to start working with it.
+# Why Spark? basic concepts
 
-First, check if you have the [Java jdk installed](isJava). Then, go to the Spark download page. Keep the default options in the first three steps and you’ll find a downloadable link in step 4. Click to download it.
+There is many package provided in the Python ecosystem for data analytic and machine learning, so why bother with Spark?
 
-Second, check if you have the good version of [Python](isPython)
+## Big Data 
 
-Next, make sure that you untar the directory that appears in your “Downloads” folder. Next, move the untarred folder to /opt/spark for exemple.
+> Industry estimates that we are creating more than 2.5 Quintillion bytes of data every year.
+> Quintillion 	Thousand (10<sup>3</sup>) of Million (10<sup>6</sup>) of Billion (10<sup>9</sup>) = 10<sup>18</sup> byte/year nearly 1 Trillion (10<sup>12</sup>) byte by second!
 
-```bash
-$ tar xzf spark-3.0.1-bin-hadoop2.7.tgz
-$ mv spark-3.0.1-bin-hadoop2.7 /opt/spark
-``` 
-Now that you’re all set to go, open the README file in /opt/spark. You’ll see that you’ll need to run a command to build Spark if you have a version that has not been built yet. So, make sure you run the command:
+### Challenges while working with big data
 
-```bash
-$ build/mvn -DskipTests clean package run
-```
-This might take a while, you will need an internet connection, but after this, you’re all set to go!
+An example : mean of the grade of a class.
 
-# some extra config
+* Easy for one class.
+* Still easy for all class of department
+* need organisation for all class of an university
+* of all university of a town, how to collect where to store? (start speaking of big data?)
+* of a country
+* of all the world! surly big data
 
-## for windows 10
 
-   Add winutils.exe File in a directory Haddom and define HADOOP_HOME in "System properties"
+## What is Apache Spark?
+Apache Spark is an open-source, distributed processing system used for big data workloads. It utilizes in-memory caching, and optimized query execution for fast analytic queries against data of any size. It provides development APIs in Java, Scala, Python and R, and supports code reuse across multiple workloads—batch processing, interactive queries, real-time analytics, machine learning, and graph processing. You’ll find it used by organizations from any industry, including at FINRA, Yelp, Zillow, DataXu, Urban Institute, and CrowdStrike. Apache Spark has become one of the most popular big data distributed processing framework with 365,000 meetup members in 2017.
 
-## configure some envirment variables
+### The Spark framework includes:
 
-export PYSPARK_PYTHON=PATHTOYOURPYTHON3.8
-export PYSPARK_DRIVER_PYTHON=jupyter
-export PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --ip 0.0.0.0 --port 9999'.
+* Spark Core as the foundation for the platform
+* Spark SQL for interactive queries
+* Spark Streaming for real-time analytics
+* Spark MLlib for machine learning
+* Spark GraphX for graph processing
 
-# Interactive Spark Shell
-Next, you can immediately start working in the Spark shell by typing ./bin/pyspark in the same folder in which you left off at the end of the last section. It can take a bit of time, but eventually, you’ll see something like this:
+![Spark](img/coreAndMdules.png)
+
+### Features of Apache Spark
+#### Apache Spark has following features.
+
+**Speed** − Spark helps to run an application in Hadoop cluster, up to 100 times faster in memory, and 10 times faster when running on disk. This is possible by reducing number of read/write operations to disk. It stores the intermediate processing data in memory.
+
+**Supports multiple languages** − Spark provides built-in APIs in Java, Scala, or Python. Therefore, you can write applications in different languages. Spark comes up with 80 high-level operators for interactive querying.
+
+**Advanced Analytics** − Spark not only supports ‘Map’ and ‘reduce’. It also supports SQL queries, Streaming data, Machine learning (ML), and Graph algorithms.
+
+
+So Apache Spark is a lightning fast real-time processing framework. It does in-memory computations to analyze data in real-time. It came into picture as Apache Hadoop MapReduce was performing batch processing only and lacked a real-time processing feature. Hence, Apache Spark was introduced as it can perform stream processing in real-time and can also take care of batch processing.
+
+Apart from real-time and batch processing, Apache Spark supports interactive queries and iterative algorithms also. Apache Spark has its own cluster manager, where it can host its application. It leverages Apache Hadoop for both storage and processing. It uses HDFS (Hadoop Distributed File system) for storage and it can run Spark applications on YARN as well.
+
+### Python and Spark = PySpark – Overview
+Apache Spark is written in Scala programming language. To support Python with Spark, Apache Spark Community released a tool, PySpark. Using PySpark, you can work with RDDs in Python programming language also. It is because of a library called Py4j that they are able to achieve this.
+
+PySpark offers PySpark Shell which links the Python API to the spark core and initializes the Spark context. Majority of data scientists and analytics experts today use Python because of its rich library set. Integrating Python with Spark is a boon to them.
+
+# [Installing Spark...](install)

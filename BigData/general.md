@@ -1,0 +1,9 @@
+# The subject
+
+We will first examine the main approaches for mining very large volumes of data. The first consists in reducing the volume of data to be processed (and therefore also of calculations to be made). Here we find classic methods that work on a sample of data and/or that reduce the number of variables (the dimension of the data)
+
+The downsizing may eventually allow the data mining work to be done on standard, inexpensive hardware platforms. When this first approach is insufficient or cannot be applied due to "low information density", the second approach, which is to use parallel platforms, is required. In order to maximize the ratio between processing capacity and operating costs, the preferred solution today is to use systems consisting of a large number of standard, inexpensive computers. To facilitate the implementation of data mining methods on this type of platform, as well as to maximize availability despite the inherent failures of personal computers, a simple and relatively generic execution mechanism has been proposed, [MapReduce](/relatedConcepts/mapReduce.md).
+
+Interesting information is often found in textual data (messages, tweets, reviews, blogs, etc.) and in social networks, so we will cover some aspect of text mining and social media mining they are very important topics in the field of data mining and machine learning.
+
+In addition to text mining, we will focus on the more technical aspects concerning spark, python spark (pyspark) and its use in the context of data mining and machine learning compared to standard machine learning techniques with python without a framework.
