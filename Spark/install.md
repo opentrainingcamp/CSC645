@@ -7,6 +7,14 @@ Second, check if you have the good version of [Python](isPython)
 
 Next, make sure that you untar the directory that appears in your “Downloads” folder. Next, move the untarred folder to /opt/spark for exemple.
 
+##TODO AUTOMATE INSTALL
+Write a script for:
+[ ] download the version of spark
+[ ] Configure environment variables for spark
+[ ] download data-set for lab use case
+[ ] install all modules
+[ ] configure environment variable
+[ ] launch juputer lab with pyspark
 
 
 ```bash
