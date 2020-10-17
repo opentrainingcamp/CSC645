@@ -4,6 +4,7 @@
 /data-sets/*
 /spark_home/*
 spark_home/
+sparkhome/
 /work/*
 .DS_Store
 .vscode/
@@ -13,9 +14,7 @@ Spark/.vscode/
 # Repo specific folders to ignore
 data-sets/
 twitter_app/checkpoint_*
-*.csv
-*.xlsx
-*.xls
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,12 +1,11 @@
 from pathlib import Path, PurePath
+import subprocess
+import os
 import logging
 import re
 import webbrowser
 from time import sleep
 
-import docker
-from docker.errors import ImageNotFound
-from requests.exceptions import ConnectionError
 
 from download_data import download
 
@@ -79,23 +78,23 @@ def look_ahead(iter_item):
 
 
 if __name__ == "__main__":
-    logger.info("Welcome to '%s' by %s", Course.full_name, Course.author)
-    logger.info("Course Version: %s", Course.version)
-    logger.info("Course Name: %s", Course.full_name)
-    logger.info("Container Name: %s", Course.container_name)
+    logger.info("Welcome to '%s' by %s", "WorkShop BDA", "Pascal Fares")
+    logger.info("Course Version: %s", "0.0")
+    logger.info("Course Name: %s", "Mastering Big Data Analytics with PySpark [Machine Learning & Data Mining Workshop]")
 
-    logger.debug("Ports that will be Exposed: %s", Course.ports)
-    logger.debug("Container Tag: %s", Course.tag)
 
     logger.info("Installing spark and pysaprk")
-    install_spark()
 
     logger.info("Downloading the data")
-    download()
+    #download()
 
     # Set up the course launch pyspark
+    spark_home = 'sparkhome/spark-3.0.1-bin-hadoop2.7'
+    os.environ['SPARK_LOCAL_IP'] = '127.0.0.1'
+    os.environ['SPARK_HOME'] = str(Path(__file__).resolve().parent / spark_home)
+    print(os.environ['SPARK_HOME'])
     os.environ['PYSPARK_DRIVER_PYTHON'] = 'jupyter'
     os.environ['PYSPARK_DRIVER_PYTHON_OPTS'] = 'lab'
 
-    subprocess.check_call('pyspark',shell=True)
+    subprocess.check_call(os.environ['SPARK_HOME'] + '/bin/pyspark',shell=True)
     
