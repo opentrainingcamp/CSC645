@@ -8,7 +8,7 @@ We will need processing collections, which we will call the "data processing pip
 * A consolidation with other documents on certain criteria;
 * aggregation operations on groups of documents.
 
-The specification of a data processing pipelines is based on a paradigm called MapReduce that we will encounter on a recurring basis. This section is a detailed presentation of the MapReduce calculation principle, and a practical illustration with simple python exemples. 
+The specification of a data processing pipelines is based on a paradigm called MapReduce that we will encounter on a recurring basis. This section is a detailed presentation of the MapReduce calculation principle, and a practical illustration with simple python examples. 
 MapReduce is really interesting and powerful in a distributed context. We stick to the centralized context (one server) in the following, which allows us to become familiar with concepts and practice in a simple setting.
 
 ## Metaphor for a MapReduce process
@@ -89,7 +89,7 @@ On the other hand, during the first phase, an undifferentiated pile of apples/or
 
 ![Frute Juice Transform parallel and assemble](img/TransformAssempleAppleJuce_4.png "Transform // Assemble // juice") 
 
-The prvious figure shows a configuration of your fruit juice production workshops, with 4 processing workshops, and 1 assembly workshop.
+The previous figure shows a configuration of your fruit juice production workshops, with 4 processing workshops, and 1 assembly workshop.
 
 Let's sum up: each peeler has a pile of fruit (apples, oranges, pineapple) to his left. He peels each ingredient, one by one, and transmits them to the assembly workshop. This assembly workshop now includes a sorter that sends each fruit to a homogeneous pile, then transmitted to a dedicated press. The process remains parallelized, with the same scalability properties as before. We just need an extra operation.
 
