@@ -17,7 +17,7 @@ Along with learning by examples we will cover "Basic knowledge for Text Mining" 
 
 
 
-The fundamentals behind machine learning, data mining and text mining will be covered gradually by covering specific examples
+The fundamentals behind machine learning, data mining and text mining will be presented gradually by covering specific examples
 
 * [Why Spark, basic concept](/Spark/)
 * [From Functions to BigData MapReduce paradigm](/relatedConcepts/mapReduce.md)
