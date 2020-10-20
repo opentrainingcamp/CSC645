@@ -17,9 +17,10 @@ if __name__ == "__main__":
     logger.info("Course Name: %s",
                 "Mastering Big Data Analytics with PySpark [Machine Learning & Data Mining Workshop]")
 
-    
-    logger.info("Installing spark and pyspark")
-    #subprocess.check_call([sys.executable, "-m", "pip", "install", 'DBUtils'])
+    logger.info("1. Step 1 : Install Java ")
+    subprocess.check_call(['java','--version'])
+    logger.info("Installing spark, needed packages and pyspark")
+    subprocess.check_call([sys.executable, "-m", "pip", "-U", '-r', './requirement_me.txt'])
     logger.info("And Downloading the data")
     download()
 
